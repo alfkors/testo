@@ -4,7 +4,4 @@ node default {
     content => 'Life if good!',
     owner   => 'root',
   }
-  file {'/root/README':
-    owner => 'root',
-  }
 }
